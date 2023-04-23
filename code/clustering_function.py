@@ -1,4 +1,4 @@
-# clustering function after OPLRA training
+# clustering function after deimos training
 
 def clust(regions, Frs, Wrf, X_train, y_train):
     
