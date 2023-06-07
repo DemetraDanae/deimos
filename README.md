@@ -2,6 +2,9 @@
 deimos, is a computational methodology for optimal grouping, applied on the read-across prediction of engineered nanomaterials’ (NMs) toxicity-related properties. The method is based on the formulation and the solution of a mixed-integer optimization program (MILP) problem that automatically and simultaneously
 performs feature selection, defines the grouping boundaries according to the response variable and develops linear regression models in each group. For each group/region, the characteristic centroid is defined in order to allocate untested NMs to the groups. The deimos MILP problem is integrated in a broader optimization workflow that selects the best performing methodology between the standard multiple linear regression (MLR), least absolute shrinkage and selection operator (LASSO) models and the proposed deimos multiple-region model. This method can be applied to property prediction of other than NM chemical entities and it is not limited to NMs toxicity prediction.
 
+<a href="https://zenodo.org/badge/latestdoi/625509224"><img src="https://zenodo.org/badge/625509224.svg" alt="DOI"></a>
+
+
 <!-- The relevant publication "deimos: a novel automated methodology for optimal grouping. Application to nanoinformatics case studies." has been published at Wiley's Molecular Informatics and can be found <a href="">here</a>. -->
 
 # Datasets
