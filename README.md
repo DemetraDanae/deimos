@@ -1,6 +1,6 @@
 # deimos
 deimos, is a computational methodology for optimal grouping, applied on the read-across prediction of engineered nanomaterials’ (NMs) toxicity-related properties. The method is based on the formulation and the solution of a mixed-integer optimization program (MILP) problem that automatically and simultaneously
-performs feature selection, defines the grouping boundaries according to the response variable and develops linear regression models in each group. For each group/region, the characteristic centroid is defined in order to allocate untested NMs to the groups. The deimos MILP problem is integrated in a broader optimization workflow that selects the best performing methodology between the standard multiple linear regression (MLR), least absolute shrinkage and selection operator (LASSO) models and the proposed deimos multiple-region model. This method can be applied to property prediction of other than NM chemical entities and it is not limited to NMs toxicity prediction.
+performs feature selection, defines the grouping boundaries according to the response variable and develops linear regression models in each group. For each group/region, the characteristic centroid is defined in order to allocate untested NMs to the groups. The deimos MILP problem is integrated in a broader optimization workflow that selects the best performing methodology between the standard multiple linear regression (MLR), the least absolute shrinkage and selection operator (LASSO) models and the proposed deimos multiple-region model. This method can be applied to property prediction of other than NM chemical entities and it is not limited to NMs toxicity prediction.
 
 <a href="https://zenodo.org/badge/latestdoi/625509224"><img src="https://zenodo.org/badge/625509224.svg" alt="DOI"></a>
 
@@ -13,6 +13,11 @@ The deimos methodology is demonstrated on two publicly available datasets:
 <li>The first one (Gold ENMs), presented by Walkey <i>et al</i>. (<a href="https://doi.org/10.1021/nn406018q">2014</a>) and filtered by Varsou <i>et al</i>. (<a href="https://doi.org/10.1021/acs.jcim.7b00160">2017</a>) using toxFlow. 
 <li>The second dataset (MeOx ENMs) is included in the study of Forest <i>et al</i>. (<a href="https://doi.org/10.1007/s11051-019-4541-2">2019</a>).
 </ul>
+
+# Cite us!
+If you find this methodology useful, please cite us! :) 
+
+Dimitra-Danai Varsou and Haralambos Sarimveis, "deimos: a novel automated methodology for optimal grouping. Application to nanoinformatics case studies", Molecular Informatics (2023). <a href="https://doi.org/10.1002/minf.202300019">DOI: 10.1021/acs.jcim.1c00199</a>
 
 # License
 This application is released under <a href="https://www.gnu.org/licenses/gpl.html"> GNU General Public License v.3</a>.
